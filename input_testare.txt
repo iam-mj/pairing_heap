@@ -1,0 +1,23 @@
+PH p, p2(12);
+p.inserare(3);
+p.inserare(4);
+p.inserare(5);
+p.afisare();
+
+
+p2.inserare(10);
+p2.inserare(1);
+p2.afisare();
+
+p = reuniune(p, p2);
+p.afisare();
+
+p.inserare(6);
+p.inserare(7);
+p.afisare();
+
+p.stergere();
+p.afisare();
+
+p.stergere();
+p.afisare();*/
