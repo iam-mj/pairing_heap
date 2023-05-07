@@ -203,7 +203,7 @@ PH& reuniune(PH& heap1, PH& heap2)
 
 
     if(heap1.maxim() > heap2.maxim())
-    //daca primul arbore are radacina mai mare
+    //daca primul heap are radacina mai mare
     {
         //adaugam radacina lui heap2 ca si copil al radacinii lui heap1
         heap1.radacina -> adaugaCopil(heap2.radacina);
